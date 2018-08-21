@@ -1,0 +1,65 @@
+<div class="container">
+	<div class="col3 text-right">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.
+		<p><button class="btn"></p>
+	</div>
+	<div class="col3 pull-right text-justify">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.
+	</div>
+	<div class="col3 text-center">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.
+	</div>
+</div>
+
+
+	<style>
+	.container{
+		width:1000px;
+		margin: auto;
+		border: 1px solid;
+
+	}
+	.col3{
+		width:25%;
+		background: lightgray;
+		float: left;
+
+	}
+	.container:after{
+		display: block;
+		content: "";
+		clear: both;
+	}
+
+	.text-right
+	{
+		text-align: right;
+	}
+	.pull-right{
+		float: right;
+	}
+	.text-justify{
+		text-align: justify;
+	}
+	.text-center{
+		text-align: center;
+	}
+	.btn{
+		background: gray;
+		width: 30px;
+		height: 40px;
+		border: 0;
+		border-radius: 5px;
+		box-shadow: 1px 2px 3px red;
+	}
+
+	</style>

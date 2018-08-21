@@ -1,0 +1,47 @@
+<!-- n/12*100 -->
+
+
+<div class="container">
+	
+	<div class="col4">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+	</div>
+	<div class="col4">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+	</div>
+	<div class="col4">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+	</div>
+	
+</div>
+
+	<style>
+		.container{
+			
+			width:1000px;
+			border: 1px solid;
+			margin: auto;
+
+		}
+		.col4
+		{
+			background: lightgray;
+			width:calc(33.33% - 35px);
+			float: left;
+			padding-left: 15px;
+			padding-right: 20px;
+		}
+		
+		.container:after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+
+	</style>

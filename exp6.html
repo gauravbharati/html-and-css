@@ -1,0 +1,33 @@
+<ul>
+	<li>test</li>
+	<li>test</li>
+	<li>test</li>
+	<li>test</li>
+	<li>test</li>
+</ul>
+
+<style>
+/* css nesting, filters css3 */
+
+ul li{
+	background: yellow;
+}
+/* filters is also called as pseudo class.
+this is also a  one  of the type of selector */
+/* first-child is pesudo class which is used to change the first list */
+ul li:first-child{
+	background: red;
+	color : lightgray;
+}
+/* ul is parrent and li is child */
+ul li:last-child{
+	background: gray;
+}
+ ul li:nth-child(2n)
+ {
+ 	font-size: 30px;
+ }
+ ul li:nth-child(2n+1)
+ {
+ 	font-style: italic;
+ }

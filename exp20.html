@@ -1,0 +1,35 @@
+<div class="container">
+	<div class="col4">
+		<img src="img1.jpg" class="img-responsive" />
+	</div>
+
+	<div class="col4">
+		<img src="img1.jpg" class="img-responsive" />
+	
+	</div>
+	
+	<div class="col4">
+		<img src="img1.jpg" class="img-responsive" />
+	</div>
+</div>
+<style>
+	.container{
+		width: 1000px;
+		margin: auto;
+	}
+	.col4{
+		float: left;
+		width: calc(33.33% - 30px);
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.container:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.img-responsive{
+		width: 100%;
+		height: auto;
+	}
+	</style>
